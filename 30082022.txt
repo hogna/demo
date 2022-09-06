@@ -1,0 +1,12 @@
+source: mã nguồn -- open source được nhiều nhà phát hành tạo nên nhưng ng dùng kp trả phí: linux
+host inventory: file chứa thông tin host client
+license: bản quyền
+deployment: triển khai
+mạng Lan có 1 dải ip riêng. Các máy ở trong mạng LAN có ip nằm trong dải ip đó vd 10.0.0.1 đến 10.0.0.100
+router quản lý mạng LAN 
+remote: từ xa
+concept: ý tưởng
+conflix: xung đột
+
+tác dụng của ansible : liên kết vs mấy cline và cài đặt ứng dụng cho các máy client thông qua máy chủ 
+bằng 1 file câu lệnh

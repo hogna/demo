@@ -1,0 +1,35 @@
+ứng dụng của ansible: 
+quản lý cấu hình của thiết bị và ứng dụng
+Linux căn bản, tương đương với LPI1, LPI2. Tức là phải tàm tạm mức OS của Linux và một số ứng dụng 
+cơ bản được triển khai trên linux cần thành thạo một chút, ví dụ: SSH, SSH Keypair, Apache, Nginx,
+Database
+bình thường cài xong nó về ổ etc
+xem địa chỉ ip: ifconfig
+systemctl=systemcontrol:điều khiển hệ thống
+thực hiện 2 lệnh 1 lúc dùng dấu &&
+
+Cách làm của bài kết nối vs máy client và ktra thông số của nó
+-cài đặt ansible
+-tạo key: ssh-keygen (muốn là máy chủ thì phải cài openssh-server để có thể kết nối đc vs mấy client)
+-copy public key sang máy client: ssh-copy-id username@ip may client
+-tạo file hosts rồi sửa địa chỉ ip của client vào ( tạo file ansible ở trong ect và file hosts ở trong file ansible)
+-ktra kết nối của ansible đến máy client thông qua lệnh: ansible all -m ping
+-sau đó sử dụng các lệnh để xem thông số bên máy client
+các bước ra kết quả là flow
+
+file có đuôi là yml và yaml là file yaml(đọc la ram) để cấu hình các dịch vụ
+config: cấu hình
+conflix
+
+dịch vụ là những cái nào có thể cấu hình chạy được ví dụ nginx ansible 
+
+, xem try_file của nginx,giao thức ssh là cái keygen 
+
+kết luận
+-học đc giao thức ssh 
+-hiểu đc flow(luồng) của ansible
+file yaml, domain, nginx và những cấu hình cơ bản của nginx
+
+prepare(chuẩn bị)
+tìm hiểu về giao thức(tcp, http,https...)
+cấu hình nginx=ansible
