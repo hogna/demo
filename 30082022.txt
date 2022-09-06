@@ -10,3 +10,5 @@ conflix: xung đột
 
 tác dụng của ansible : liên kết vs mấy cline và cài đặt ứng dụng cho các máy client thông qua máy chủ 
 bằng 1 file câu lệnh
+
+fsdfsfsfsfs
