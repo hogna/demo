@@ -12,3 +12,8 @@ tác dụng của ansible : liên kết vs mấy cline và cài đặt ứng d�
 bằng 1 file câu lệnh
 
 fsdfsfsfsfs
+
+
+
+
+kết nối ansible đến github 

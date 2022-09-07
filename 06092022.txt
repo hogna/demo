@@ -1,0 +1,16 @@
+ansible-playbook -i <tên file> : lệnh dùng để chuyển file playbook từ máy chủ sang client
+mysql-server dùng để lưu trữ database của ứng dụng
+
+-i tenfile : dùng để chỉ đến file muốn gửi đi
+systemctl status/start/stop/enable(bật service cùng với máy) "tên service"
+(điều khiển hệ thống) 
+
+
+
+Muốn đẩy dữ liệu lên git dùng những câu lệnh nào:
+- git init (khi k còn file .git thì mới dùng)
+- git add . :thêm all các file vào stage
+- git remote origin link repos(chỉ dùng khi chưa kết nối đén repos trên github):
+- git commit -m "tên commit" 
+- git push origin nhánh muốn chọn(tên nhánh)
+
